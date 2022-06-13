@@ -1,0 +1,39 @@
+{
+    "name": "animate-css-mixins",
+    "version": "0.1.0",
+    "description": "SASS, Less and Stylus mixins for animate.css classes",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/asmbatha/animate-css-mixins.git"
+    },
+    "keywords": [
+        "postcss",
+        "css",
+        "postcss-plugin",
+        "css",
+        "class",
+        "classes",
+        "mixin",
+        "mixins",
+        "sass",
+        "less",
+        "stylus",
+        "plugin"
+    ],
+    "author": "Ayanda Mbatha <asmbatha.13@gmail.com> (ayandambatha.web.app)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/asmbatha/animate-css-mixins/issues"
+    },
+    "homepage": "https://github.com/asmbatha/animate-css-mixins#readme",
+    "type": "module",
+    "devDependencies": {
+        "animate.css": "^4.1.1",
+        "postcss": "^8.4.14",
+        "postcss-classes-to-mixins": "github:asmbatha/postcss-classes-to-mixins"
+    }
+}
