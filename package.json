@@ -4,7 +4,11 @@
     "description": "SASS, Less and Stylus mixins for animate.css classes",
     "main": "index.js",
     "scripts": {
-        "start": "node ."
+        "start": "node .",
+        "publish:patch": "npm version patch -m 'Release patch %s'",
+        "publish:minor": "npm version minor -m 'Release minor %s'",
+        "publish:major": "npm version major -m 'Release major %s'",
+        "postversion": "git push && git push --tags && npm publish"
     },
     "repository": {
         "type": "git",
