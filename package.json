@@ -1,6 +1,6 @@
 {
     "name": "animate-css-mixins",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "SASS, Less and Stylus mixins for animate.css classes",
     "main": "index.js",
     "scripts": {
